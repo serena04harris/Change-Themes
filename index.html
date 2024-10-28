@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>Website with Changing Themes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Website with Changing Themes!</h1>
+    <h2>Please select your desired theme:</h2>
+  
+    <button onclick="changetheme()">Change Theme</button>
+
+    <form>
+        <input type="radio" id="november" name="theme" onclick="applyTheme()">
+        <label for="november">November</label><br>
+        
+        <input type="radio" id="october" name="theme" onclick="applyTheme()">
+        <label for="october">October</label><br>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
